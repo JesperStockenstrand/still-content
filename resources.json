@@ -1,0 +1,60 @@
+{
+  "resources": [
+    {
+      "id": "r001",
+      "title": "Attached",
+      "type": "book",
+      "author": "Amir Levine & Rachel Heller",
+      "description": "The definitive guide to adult attachment theory. Explains anxious, avoidant, and secure styles in plain language and why we are drawn to people who feel familiar, not safe.",
+      "url": "https://www.attachedthebook.com"
+    },
+    {
+      "id": "r002",
+      "title": "Trauma Rewired",
+      "type": "podcast",
+      "author": "Jennifer Wallace & Elisabeth Kristof",
+      "description": "A research-backed podcast on how trauma lives in the body and how the nervous system can heal. Particularly useful for understanding why no-contact feels physically painful.",
+      "url": "https://www.traumarewired.com"
+    },
+    {
+      "id": "r003",
+      "title": "Psykologiguiden",
+      "type": "directory",
+      "author": null,
+      "description": "Swedish directory for finding a licensed therapist. Searchable by location, specialisation, and insurance. If you are ready to talk to someone, this is a good place to start. (Swedish)",
+      "url": "https://www.psykologiguiden.se"
+    },
+    {
+      "id": "r004",
+      "title": "The Body Keeps the Score",
+      "type": "book",
+      "author": "Bessel van der Kolk",
+      "description": "A landmark book on how trauma shapes the body and mind — and the range of approaches that can help. Particularly relevant if the relationship involved emotional or psychological abuse.",
+      "url": "https://www.besselvanderkolk.com/resources/the-body-keeps-the-score"
+    },
+    {
+      "id": "r005",
+      "title": "We Can Do Hard Things",
+      "type": "podcast",
+      "author": "Glennon Doyle",
+      "description": "Honest, warm conversations about difficult human experiences. Not specifically about breakups, but consistently useful for anyone going through something hard.",
+      "url": "https://momastery.com/blog/we-can-do-hard-things"
+    },
+    {
+      "id": "r006",
+      "title": "Psychology Today Therapist Finder",
+      "type": "directory",
+      "author": null,
+      "description": "International directory of licensed therapists, searchable by issue, therapy type, and location. A practical starting point if you are considering professional support.",
+      "url": "https://www.psychologytoday.com/us/therapists"
+    },
+    {
+      "id": "r007",
+      "title": "Why Does He Do That?",
+      "type": "book",
+      "author": "Lundy Bancroft",
+      "description": "A clear-eyed look at controlling and abusive relationship dynamics — written for people who are still trying to understand what happened. Widely recommended by therapists.",
+      "url": "https://lundybancroft.com/books/why-does-he-do-that"
+    }
+  ]
+}

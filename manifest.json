@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "last_updated": "2026-05-12",
+  "min_app_version": "1.0.0",
+  "files": {
+    "insights": "insights.json",
+    "articles": "articles.json",
+    "resources": "resources.json"
+  }
+}
