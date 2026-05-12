@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Still</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0f11;
+      --surface: #1a1a1f;
+      --border: #2a2a32;
+      --text: #e8e8ed;
+      --text-secondary: #8e8e9a;
+      --accent: #7c6af7;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f5f5f7;
+        --surface: #ffffff;
+        --border: #e0e0e8;
+        --text: #111114;
+        --text-secondary: #6e6e7a;
+        --accent: #5b4de0;
+      }
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 48px 20px 80px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .wordmark {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--accent);
+      margin-bottom: 48px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.4px;
+      margin-bottom: 8px;
+    }
+
+    .updated {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+    }
+
+    .lead {
+      font-size: 17px;
+      color: var(--text-secondary);
+      margin-bottom: 48px;
+      padding: 20px 24px;
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      line-height: 1.6;
+    }
+
+    .lead strong {
+      color: var(--text);
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    p strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 16px;
+    }
+
+    ul li {
+      color: var(--text-secondary);
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <span class="wordmark">Still</span>
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: May 2026</p>
+
+    <div class="lead">
+      <strong>The short version:</strong> Still stores everything on your device, encrypted. Nothing you write, track, or log is ever sent anywhere. There is no account. There is no server that holds your data. There is no advertising. This policy exists to explain that in full.
+    </div>
+
+    <h2>What Still does</h2>
+    <p>Still is a mobile app that helps people maintain no-contact after a relationship ends. It includes a streak tracker, an encrypted journal, wellbeing check-ins, progress charts, and a library of articles and resources.</p>
+
+    <h2>Data that stays on your device</h2>
+    <p>Everything you create or enter in Still is stored locally on your device and nowhere else:</p>
+    <ul>
+      <li>Journal entries (encrypted with AES-256)</li>
+      <li>Wellbeing check-ins — mood, sleep, energy</li>
+      <li>Streak start date and reset history</li>
+      <li>Your self-focus checklist items</li>
+      <li>Notification preferences and times</li>
+      <li>App settings</li>
+    </ul>
+    <p><strong>None of this data is transmitted, shared, or accessible to anyone other than you.</strong> There is no user account, no login, and no server that receives your personal information.</p>
+
+    <h2>Encryption</h2>
+    <p>Journal entries are encrypted with AES-256 before being written to storage. The encryption key is generated on your device and stored in the device's secure hardware enclave (iOS Secure Enclave / Android Keystore). The key never leaves your device.</p>
+    <p>This means that even if someone gained access to your device's storage, your journal entries would be unreadable without the key.</p>
+
+    <h2>Content delivery</h2>
+    <p>Still fetches articles, insights, and resources from a content server at launch to keep the library up to date. This request contains no personal information — it is equivalent to loading a webpage. Your device's IP address is visible to the server as part of the standard network request, as it is with any internet connection. No user-identifying data is sent or stored by the content server.</p>
+
+    <h2>Notifications</h2>
+    <p>If you enable notifications, they are scheduled entirely on-device using iOS and Android's local notification system. Notification content is generated locally and is not processed by any external server.</p>
+
+    <h2>Backup and export</h2>
+    <p>Still allows you to export an encrypted backup of your data as a <code>.still</code> file. This file is encrypted with your device's key. You control where it is saved and shared. Still does not upload backup files anywhere.</p>
+
+    <h2>Third-party services</h2>
+    <p>Still does not integrate with any advertising networks, analytics services, or data brokers. There are no third-party SDKs that collect behavioural or personal data.</p>
+    <p>The content library links to external resources (books, podcasts, websites). Visiting those links is subject to those services' own privacy policies.</p>
+
+    <h2>Children</h2>
+    <p>Still is not directed at children under 13 and does not knowingly collect data from anyone under 13.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes in a material way, the updated date at the top of this page will reflect it. Because Still collects no personal data, changes are unlikely to affect your privacy in practice.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy: <a href="mailto:j.stockenstrand@gmail.com">j.stockenstrand@gmail.com</a></p>
+
+    <hr />
+    <p style="font-size: 13px;">Still is built and maintained by Jesper Stockenstrand.</p>
+
+  </div>
+</body>
+</html>
