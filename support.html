@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Still</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0f11;
+      --surface: #1a1a1f;
+      --border: #2a2a32;
+      --text: #e8e8ed;
+      --text-secondary: #8e8e9a;
+      --accent: #7c6af7;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f5f5f7;
+        --surface: #ffffff;
+        --border: #e0e0e8;
+        --text: #111114;
+        --text-secondary: #6e6e7a;
+        --accent: #5b4de0;
+      }
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 48px 20px 80px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .wordmark {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--accent);
+      margin-bottom: 48px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.4px;
+      margin-bottom: 8px;
+    }
+
+    .lead {
+      font-size: 16px;
+      color: var(--text-secondary);
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-top: 40px;
+      margin-bottom: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+    }
+
+    .card h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .contact-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 16px;
+    }
+
+    .contact-box p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+
+    .email-link {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .email-link:hover {
+      opacity: 0.9;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0 32px;
+    }
+
+    footer {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    footer a {
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <span class="wordmark">Still</span>
+
+    <h1>Support</h1>
+    <p class="lead">Answers to common questions, and a way to reach us if you need more help.</p>
+
+    <h2>Common questions</h2>
+
+    <div class="card">
+      <h3>I got a new phone. How do I transfer my data?</h3>
+      <p>Go to Settings → Transfer to new device. This generates a QR code containing your encryption key. On your new phone, install Still and scan the QR code during setup. Then export your data from the old phone (Settings → Export data) and import it on the new one.</p>
+    </div>
+
+    <div class="card">
+      <h3>I forgot to transfer before wiping my old phone. Is my data gone?</h3>
+      <p>If you had previously exported a backup (.still file) and saved it somewhere — Files, iCloud, Google Drive — you can recover your journal entries if you still have the encryption key from the old device. Without the key, encrypted entries cannot be recovered. This is by design: no one, including us, can read your data.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do I back up my data?</h3>
+      <p>Go to Settings → Export data. This saves an encrypted .still file that you can store anywhere — iCloud Drive, Google Drive, email to yourself, or a local folder. The file is encrypted and unreadable without your device key.</p>
+    </div>
+
+    <div class="card">
+      <h3>I reset my streak by accident. Can I undo it?</h3>
+      <p>Once a streak is reset, it cannot be undone. Your original journey start date is always preserved, so your total days are not lost — only the current streak resets. You can view your journey start date on the home screen.</p>
+    </div>
+
+    <div class="card">
+      <h3>Notifications aren't arriving. What should I check?</h3>
+      <p>Make sure notifications are enabled in Still (Settings → Notifications) and that iOS/Android has granted notification permission to Still (check your device's system Settings → Still → Notifications). If notifications are enabled in both places and still not arriving, try toggling them off and on again in the app.</p>
+    </div>
+
+    <div class="card">
+      <h3>The app asks for camera permission. Why?</h3>
+      <p>Camera access is used only for the QR code scanner in the device transfer flow (Settings → Transfer to new device). It is not used for anything else and is not required to use the rest of the app.</p>
+    </div>
+
+    <div class="card">
+      <h3>Can Still see my journal entries?</h3>
+      <p>No. Journal entries are encrypted on your device before being saved, using a key that never leaves your hardware secure enclave. There is no server, no account, and no mechanism by which anyone other than you can read what you write.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do I delete all my data?</h3>
+      <p>Go to Settings → Clear all data. This deletes all entries, check-ins, streak data, and regenerates your encryption key. This action is permanent and cannot be undone.</p>
+    </div>
+
+    <hr />
+
+    <h2>Get in touch</h2>
+
+    <div class="contact-box">
+      <p>If your question isn't answered above, or if you've found a bug, send an email and we'll get back to you as soon as we can. Please include your device model and iOS/Android version if you're reporting a technical issue.</p>
+      <a class="email-link" href="mailto:still.app@stockenstrand.com">still.app@stockenstrand.com</a>
+    </div>
+
+    <hr />
+
+    <footer>
+      <a href="/privacy.html">Privacy Policy</a> &nbsp;·&nbsp; Still by Jesper Stockenstrand
+    </footer>
+
+  </div>
+</body>
+</html>
