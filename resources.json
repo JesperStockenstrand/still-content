@@ -24,7 +24,7 @@
       "type": "podcast",
       "author": "Glennon Doyle",
       "description": "Honest, warm conversations about difficult human experiences. Not specifically about breakups, but consistently useful for anyone going through something hard.",
-      "url": "https://glennondoyle.com/podcast/",
+      "url": "https://podcasts.apple.com/us/podcast/we-can-do-hard-things/id1564530722",
       "day_from": 7
     },
     {
@@ -84,12 +84,13 @@
     },
     {
       "id": "r015",
-      "title": "Who Are You Without Them?",
+      "title": "The Science of Healing Heartbreak",
       "type": "podcast_episode",
       "author": "We Can Do Hard Things",
-      "description": "Glennon Doyle and Abby Wambach on how relationships change who we think we are — and how to find yourself again when one ends. Warm and direct.",
-      "url": "https://glennondoyle.com/podcast/",
-      "day_from": 21
+      "description": "Florence Williams on the neuroscience and biology of heartbreak — why it feels physical, what your body and brain are actually going through, and what helps. One of the most clarifying listens for early days.",
+      "url": "https://podcasts.apple.com/us/podcast/the-science-of-healing-heartbreak-with-florence-williams/id1564530722?i=1000691714057",
+      "day_from": 1,
+      "day_to": 30
     }
   ]
 }
