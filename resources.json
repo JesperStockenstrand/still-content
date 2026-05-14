@@ -28,15 +28,6 @@
       "day_from": 7
     },
     {
-      "id": "r006",
-      "title": "Psychology Today Therapist Finder",
-      "type": "directory",
-      "author": null,
-      "description": "International directory of licensed therapists, searchable by issue, therapy type, and location. A practical starting point if you are considering professional support.",
-      "url": "https://www.psychologytoday.com/us/therapists",
-      "day_from": 14
-    },
-    {
       "id": "r007",
       "title": "Why Does He Do That?",
       "type": "book",
