@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "last_updated": "2026-05-12",
+  "version": 6,
+  "last_updated": "2026-05-14",
   "min_app_version": "1.0.0",
   "files": {
     "insights": "insights.json",

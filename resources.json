@@ -6,25 +6,7 @@
       "type": "book",
       "author": "Amir Levine & Rachel Heller",
       "description": "The definitive guide to adult attachment theory. Explains anxious, avoidant, and secure styles in plain language and why we are drawn to people who feel familiar, not safe.",
-      "url": "https://www.attachedthebook.com",
-      "day_from": 14
-    },
-    {
-      "id": "r002",
-      "title": "Trauma Rewired",
-      "type": "podcast",
-      "author": "Jennifer Wallace & Elisabeth Kristof",
-      "description": "A research-backed podcast on how trauma lives in the body and how the nervous system can heal. Particularly useful for understanding why no-contact feels physically painful.",
-      "url": "https://www.traumarewired.com",
-      "day_from": 7
-    },
-    {
-      "id": "r003",
-      "title": "Psykologiguiden",
-      "type": "directory",
-      "author": null,
-      "description": "Swedish directory for finding a licensed therapist. Searchable by location, specialisation, and insurance. If you are ready to talk to someone, this is a good place to start. (Swedish)",
-      "url": "https://www.psykologiguiden.se",
+      "url": "https://www.attachedthebook.com/wordpress/",
       "day_from": 14
     },
     {
@@ -60,7 +42,7 @@
       "type": "book",
       "author": "Lundy Bancroft",
       "description": "A clear-eyed look at controlling and abusive relationship dynamics — written for people who are still trying to understand what happened. Widely recommended by therapists.",
-      "url": "https://lundybancroft.com/books/why-does-he-do-that",
+      "url": "https://lundybancroft.com/",
       "day_from": 1,
       "day_to": 60
     },
@@ -83,21 +65,12 @@
       "day_from": 30
     },
     {
-      "id": "r010",
-      "title": "BACP Find a Therapist",
-      "type": "directory",
-      "author": null,
-      "description": "The British Association for Counselling and Psychotherapy's therapist directory. Searchable by location and speciality. Accredited practitioners only. (UK)",
-      "url": "https://www.bacp.co.uk/search/Therapists",
-      "day_from": 14
-    },
-    {
       "id": "r011",
       "title": "Running on Empty",
       "type": "book",
       "author": "Jonice Webb",
       "description": "On childhood emotional neglect — the invisible wound that often shapes who we are drawn to in relationships. Quietly illuminating for many people in or after difficult relationships.",
-      "url": "https://drjonicewebb.com/running-on-empty",
+      "url": "https://drjonicewebb.com/running-on-empty-video-1/",
       "day_from": 30
     },
     {
@@ -108,26 +81,6 @@
       "description": "Accessible content on self-healing, nervous system regulation, and breaking relational patterns. Instagram and website both useful; start with the self-healing protocol.",
       "url": "https://theholisticpsychologist.com",
       "day_from": 7
-    },
-    {
-      "id": "r013",
-      "title": "How to Heal a Broken Heart",
-      "type": "podcast_episode",
-      "author": "Huberman Lab",
-      "description": "Andrew Huberman and Dr. Paul Conti cover the neuroscience of heartbreak, grief, and loss — why it feels so physical, and what the brain and body need to recover.",
-      "url": "https://www.hubermanlab.com/episode/dr-paul-conti-tools-and-protocols-for-dealing-with-grief",
-      "day_from": 1,
-      "day_to": 30
-    },
-    {
-      "id": "r014",
-      "title": "The Wisdom of Trauma",
-      "type": "podcast_episode",
-      "author": "Trauma Rewired",
-      "description": "Elisabeth Kristof on how unresolved relational trauma lives in the body — and the difference between numbing it and actually healing it. One of the most-shared episodes of the show.",
-      "url": "https://www.traumarewired.com/episodes",
-      "day_from": 7,
-      "day_to": 60
     },
     {
       "id": "r015",
