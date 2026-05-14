@@ -6,7 +6,8 @@
       "type": "book",
       "author": "Amir Levine & Rachel Heller",
       "description": "The definitive guide to adult attachment theory. Explains anxious, avoidant, and secure styles in plain language and why we are drawn to people who feel familiar, not safe.",
-      "url": "https://www.attachedthebook.com"
+      "url": "https://www.attachedthebook.com",
+      "day_from": 14
     },
     {
       "id": "r002",
@@ -14,7 +15,8 @@
       "type": "podcast",
       "author": "Jennifer Wallace & Elisabeth Kristof",
       "description": "A research-backed podcast on how trauma lives in the body and how the nervous system can heal. Particularly useful for understanding why no-contact feels physically painful.",
-      "url": "https://www.traumarewired.com"
+      "url": "https://www.traumarewired.com",
+      "day_from": 7
     },
     {
       "id": "r003",
@@ -22,7 +24,8 @@
       "type": "directory",
       "author": null,
       "description": "Swedish directory for finding a licensed therapist. Searchable by location, specialisation, and insurance. If you are ready to talk to someone, this is a good place to start. (Swedish)",
-      "url": "https://www.psykologiguiden.se"
+      "url": "https://www.psykologiguiden.se",
+      "day_from": 14
     },
     {
       "id": "r004",
@@ -30,7 +33,8 @@
       "type": "book",
       "author": "Bessel van der Kolk",
       "description": "A landmark book on how trauma shapes the body and mind — and the range of approaches that can help. Particularly relevant if the relationship involved emotional or psychological abuse.",
-      "url": "https://www.besselvanderkolk.com/resources/the-body-keeps-the-score"
+      "url": "https://www.besselvanderkolk.com/resources/the-body-keeps-the-score",
+      "day_from": 30
     },
     {
       "id": "r005",
@@ -38,7 +42,8 @@
       "type": "podcast",
       "author": "Glennon Doyle",
       "description": "Honest, warm conversations about difficult human experiences. Not specifically about breakups, but consistently useful for anyone going through something hard.",
-      "url": "https://momastery.com/blog/we-can-do-hard-things"
+      "url": "https://momastery.com/blog/we-can-do-hard-things",
+      "day_from": 7
     },
     {
       "id": "r006",
@@ -46,7 +51,8 @@
       "type": "directory",
       "author": null,
       "description": "International directory of licensed therapists, searchable by issue, therapy type, and location. A practical starting point if you are considering professional support.",
-      "url": "https://www.psychologytoday.com/us/therapists"
+      "url": "https://www.psychologytoday.com/us/therapists",
+      "day_from": 14
     },
     {
       "id": "r007",
@@ -54,7 +60,9 @@
       "type": "book",
       "author": "Lundy Bancroft",
       "description": "A clear-eyed look at controlling and abusive relationship dynamics — written for people who are still trying to understand what happened. Widely recommended by therapists.",
-      "url": "https://lundybancroft.com/books/why-does-he-do-that"
+      "url": "https://lundybancroft.com/books/why-does-he-do-that",
+      "day_from": 1,
+      "day_to": 60
     },
     {
       "id": "r008",
@@ -62,7 +70,8 @@
       "type": "book",
       "author": "Susan J. Elliott",
       "description": "A practical, structured guide to breakup recovery grounded in cognitive-behavioural principles. More hands-on than most self-help books on the topic — exercises included.",
-      "url": "https://gettingpastyourbreakup.com"
+      "url": "https://gettingpastyourbreakup.com",
+      "day_from": 14
     },
     {
       "id": "r009",
@@ -70,7 +79,8 @@
       "type": "podcast",
       "author": "Neil Sattin",
       "description": "In-depth interviews with leading researchers and therapists on attachment, intimacy, and relationships. Useful for understanding what went wrong and what healthy looks like.",
-      "url": "https://www.neilsattin.com/blog"
+      "url": "https://www.neilsattin.com/blog",
+      "day_from": 30
     },
     {
       "id": "r010",
@@ -78,7 +88,8 @@
       "type": "directory",
       "author": null,
       "description": "The British Association for Counselling and Psychotherapy's therapist directory. Searchable by location and speciality. Accredited practitioners only. (UK)",
-      "url": "https://www.bacp.co.uk/search/Therapists"
+      "url": "https://www.bacp.co.uk/search/Therapists",
+      "day_from": 14
     },
     {
       "id": "r011",
@@ -86,7 +97,8 @@
       "type": "book",
       "author": "Jonice Webb",
       "description": "On childhood emotional neglect — the invisible wound that often shapes who we are drawn to in relationships. Quietly illuminating for many people in or after difficult relationships.",
-      "url": "https://drjonicewebb.com/running-on-empty"
+      "url": "https://drjonicewebb.com/running-on-empty",
+      "day_from": 30
     },
     {
       "id": "r012",
@@ -94,7 +106,37 @@
       "type": "resource",
       "author": "Dr Nicole LePera",
       "description": "Accessible content on self-healing, nervous system regulation, and breaking relational patterns. Instagram and website both useful; start with the self-healing protocol.",
-      "url": "https://theholisticpsychologist.com"
+      "url": "https://theholisticpsychologist.com",
+      "day_from": 7
+    },
+    {
+      "id": "r013",
+      "title": "How to Heal a Broken Heart",
+      "type": "podcast_episode",
+      "author": "Huberman Lab",
+      "description": "Andrew Huberman and Dr. Paul Conti cover the neuroscience of heartbreak, grief, and loss — why it feels so physical, and what the brain and body need to recover.",
+      "url": "https://www.hubermanlab.com/episode/dr-paul-conti-tools-and-protocols-for-dealing-with-grief",
+      "day_from": 1,
+      "day_to": 30
+    },
+    {
+      "id": "r014",
+      "title": "The Wisdom of Trauma",
+      "type": "podcast_episode",
+      "author": "Trauma Rewired",
+      "description": "Elisabeth Kristof on how unresolved relational trauma lives in the body — and the difference between numbing it and actually healing it. One of the most-shared episodes of the show.",
+      "url": "https://www.traumarewired.com/episodes",
+      "day_from": 7,
+      "day_to": 60
+    },
+    {
+      "id": "r015",
+      "title": "Who Are You Without Them?",
+      "type": "podcast_episode",
+      "author": "We Can Do Hard Things",
+      "description": "Glennon Doyle and Abby Wambach on how relationships change who we think we are — and how to find yourself again when one ends. Warm and direct.",
+      "url": "https://momastery.com/blog/we-can-do-hard-things",
+      "day_from": 21
     }
   ]
 }
