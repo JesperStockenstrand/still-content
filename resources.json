@@ -91,6 +91,97 @@
       "url": "https://podcasts.apple.com/us/podcast/the-science-of-healing-heartbreak-with-florence-williams/id1564530722?i=1000691714057",
       "day_from": 1,
       "day_to": 30
+    },
+    {
+      "id": "r016",
+      "title": "Baggage Reclaim",
+      "type": "resource",
+      "author": "Natalie Lue",
+      "description": "One of the most practical and honest resources on no-contact, boundaries, and breaking patterns in relationships. Articles, podcast, and exercises specifically aimed at people recovering from difficult relationships.",
+      "url": "https://baggagereclaim.co.uk/",
+      "day_from": 1
+    },
+    {
+      "id": "r017",
+      "title": "Self-Compassion",
+      "type": "resource",
+      "author": "Dr Kristin Neff",
+      "description": "Free guided meditations, exercises, and research-backed tools for self-compassion. Particularly useful when shame or self-blame is part of what you are carrying. Start with the self-compassion break.",
+      "url": "https://self-compassion.org/",
+      "day_from": 1
+    },
+    {
+      "id": "r018",
+      "title": "How to Fix a Broken Heart",
+      "type": "podcast_episode",
+      "author": "TED — Guy Winch",
+      "description": "A 12-minute TED talk on why heartbreak is a genuine psychological injury, why we treat it so poorly, and what actually helps. The best short introduction to taking your own pain seriously.",
+      "url": "https://www.ted.com/talks/guy_winch_how_to_fix_a_broken_heart",
+      "day_from": 1,
+      "day_to": 14
+    },
+    {
+      "id": "r019",
+      "title": "Whole Again",
+      "type": "book",
+      "author": "Jackson MacKenzie",
+      "description": "A compassionate guide to healing after a relationship with a toxic or emotionally unavailable partner. Goes beyond the relationship itself to the patterns that led you there.",
+      "url": "https://www.jacksonmackenzie.com/",
+      "day_from": 30
+    },
+    {
+      "id": "r020",
+      "title": "Dr Ramani",
+      "type": "resource",
+      "author": "Dr Ramani Durvasula",
+      "description": "The most accessible resource on narcissistic and difficult relationship dynamics. YouTube channel and website with hundreds of short, clear videos. Particularly useful if you are still trying to make sense of what happened.",
+      "url": "https://doctor-ramani.com/",
+      "day_from": 7
+    },
+    {
+      "id": "r021",
+      "title": "Unlocking Us",
+      "type": "podcast",
+      "author": "Brené Brown",
+      "description": "Brené Brown in conversation with researchers, authors, and thinkers on vulnerability, shame, and what it means to live fully. Several episodes directly relevant to heartbreak and starting over.",
+      "url": "https://podcasts.apple.com/us/podcast/unlocking-us-with-bren%C3%A9-brown/id1494350511",
+      "day_from": 14
+    },
+    {
+      "id": "r022",
+      "title": "Codependent No More",
+      "type": "book",
+      "author": "Melody Beattie",
+      "description": "The classic book on codependency — the pattern of losing yourself in another person's needs, emotions, and crises. Widely recommended for anyone whose relationship felt like it consumed their identity.",
+      "url": "https://www.melodybeattie.com/",
+      "day_from": 21
+    },
+    {
+      "id": "r023",
+      "title": "The Gifts of Imperfection",
+      "type": "book",
+      "author": "Brené Brown",
+      "description": "On letting go of who you think you should be and embracing who you are. Warm and research-grounded. A good companion for the part of healing where you start to rebuild your sense of self.",
+      "url": "https://brenebrown.com/book/the-gifts-of-imperfection/",
+      "day_from": 30
+    },
+    {
+      "id": "r024",
+      "title": "Huberman Lab",
+      "type": "podcast",
+      "author": "Andrew Huberman",
+      "description": "Science-based tools for improving wellbeing — sleep, stress, focus, and emotional regulation. Several episodes directly relevant to grief, nervous system recovery, and rebuilding after loss.",
+      "url": "https://www.hubermanlab.com/",
+      "day_from": 14
+    },
+    {
+      "id": "r025",
+      "title": "When the Body Says No",
+      "type": "book",
+      "author": "Gabor Maté",
+      "description": "How chronic stress and suppressed emotion — often rooted in difficult relationships — manifests in the body. A deeper read for understanding the physical toll of what you have been through.",
+      "url": "https://drgabormate.com/book/when-the-body-says-no/",
+      "day_from": 45
     }
   ]
 }
