@@ -69,11 +69,16 @@ The app will pick up the new content on next launch.
       "summary": "One-sentence summary shown in the article list.",
       "tags": ["neuroscience", "dopamine"],
       "read_minutes": 4,
+      "day_from": 14,
+      "day_to": 60,
+      "stage": "second-wave",
       "body": "Full article text. Use \\n\\n for paragraphs."
     }
   ]
 }
 ```
+- `day_from` / `day_to` are optional: the days of no-contact during which the article is suggested ("For this stage"). Leave `day_to` out, or `null`, for no end.
+- `stage` is the group the article is listed under in the Learn tab. One of `beginning` (days 0–2), `hardest-stretch` (3–13), `second-wave` (14–29), `one-month` (30–59), `rebuild` (60–89), `other-side` (90 onwards). App versions before 0.7.6 ignore it; without it, an article is grouped by `day_from`.
 
 ### `resources.json`
 ```json
